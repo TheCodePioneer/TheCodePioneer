@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Bayma Faye</h1>
 <h3 align="center">A passionate full stack developer | Crafting Web & Mobile Solutions</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=thecodepioneer" alt="thecodepioneer" /></a> </p>
-
 <p align="left"> <a href="https://twitter.com/thecodepioneer" target="blank"><img src="https://img.shields.io/twitter/follow/thecodepioneer?logo=twitter&style=for-the-badge" alt="thecodepioneer" /></a> </p>
 
 - 🌱 I’m currently learning **Cloud Computing**
@@ -28,4 +26,4 @@
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/thecodepioneer0"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="thecodepioneer0" /></a></p><br><br>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=thecodepioneer&show_icons=true&locale=en&layout=compact" alt="thecodepioneer" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=thecodepioneer&" alt="thecodepioneer" /></p>
