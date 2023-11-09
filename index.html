@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" placeholder="0"id="output-screen">
+            <button onclick="Clear()">CL</button>
+            <button onclick="Del()">DEL</button>
+            <button onclick="Display('%')">%</button>
+            <button onclick="Display('/')">/</button>
+            <button onclick="Display('7')">7</button>
+            <button onclick="Display('8')">8</button>
+            <button onclick="Display('9')">9</button>
+            <button onclick="Display('*')">*</button>
+            <button onclick="Display('4')">4</button>
+            <button onclick="Display('5')">5</button>
+            <button onclick="Display('6')">6</button>
+            <button onclick="Display('-')">-</button>
+            <button onclick="Display('1')">1</button>
+            <button onclick="Display('2')">2</button>
+            <button onclick="Display('3')">3</button>
+            <button onclick="Display('.')">.</button>
+            <button onclick="Display('0')">0</button>
+            <button onclick="Calculate()" class="equal">=</button>
+        </div>
+    </div>
+
+    <script>
+        let outputscreen = document.getElementById('output-screen');
+        function Display(num) {
+            outputscreen.value += num;
+        }
+        function Calculate(){
+            try{
+                outputscreen.value = eval(outputscreen.value);
+            }
+            catch(err)
+            {
+                alert('Invalid')
+            }
+        }
+        function Clear(){
+            outputscreen.value = '';
+        }
+        function Del(){
+            outputscreen.value = outputscreen.value.slice(0,-1);
+        }
+    </script>
+</body>
+</html>
